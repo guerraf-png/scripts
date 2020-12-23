@@ -6,5 +6,3 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 sudo swapon -s
 rm swapfile.sh
-nano /etc/fstab
-/swapfile   none    swap    sw    0   0
