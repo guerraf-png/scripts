@@ -15,3 +15,4 @@ mkdir /guerra/ftp/files
 chown guerra:guerra /guerra/ftp/files
 touch /guerra/ftp/files/sample.txt
 clear
+
