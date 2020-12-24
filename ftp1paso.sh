@@ -17,7 +17,6 @@ touch /guerra/ftp/files/sample.txt
 clear
 cd etc
 wget https://raw.githubusercontent.com/guerraf-png/scripts/main/vsftpd.como
-rm vsftpd.conf
 mv vsftpd.conf.1 vsftpd.conf
 echo "guerra" | touch /etc/vsftpd.userlist
 sudo systemctl restart vsftpd
