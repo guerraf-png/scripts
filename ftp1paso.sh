@@ -7,10 +7,10 @@ sudo  ufw allow 990/tcp
 sudo  ufw allow 40000:50000/tcp
 sudo  ufw status
 sudo  adduser guerra
-sudo  mkdir /home/guerra/ftp
-sudo  chown nobody:nogroup /home/guerra/ftp
-sudo  chmod a-w /home/guerra/ftp
-sudo  ls -la /home/guerra/ftp
-sudo  mkdir /home/guerra/ftp/files
-sudo  chown guerra:guerra /home/guerra/ftp/files
-sudo  tee /home/guerra/ftp/files/sample.txt
+sudo  mkdir /guerra/ftp
+sudo  chown nobody:nogroup /guerra/ftp
+sudo  chmod a-w /guerra/ftp
+sudo  ls -la /guerra/ftp
+sudo  mkdir /guerra/ftp/files
+sudo  chown guerra:guerra /guerra/ftp/files
+sudo  tee /guerra/ftp/files/sample.txt
