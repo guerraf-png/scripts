@@ -9,4 +9,3 @@ echo -e "\e[32mQuase Lá falta Pouco.\e[0m";
 echo -e "\e[32mQuase Lá falta Pouco..\e[0m";
 echo -e "\e[32mQuase Lá falta Pouco...\e[0m";
 echo -e "\e[33mScript BY GuerraVPN\e[0m";
-wget https://raw.githubusercontent.com/guerraf-png/scripts/main/guerravpn && chmod 777 guerravpn && ./guerravpn
